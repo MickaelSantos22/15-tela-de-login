@@ -111,3 +111,45 @@ button:active {
 .forgot a:hover {
     text-decoration: underline;
 }
+
+/* Tablet */
+
+@media (max-width: 768px)  {
+    
+    main {
+        width: calc(100% - 48px);
+        max-width: 500px;
+    }
+
+}
+
+/* Celulares */
+
+@media (max-width: 480px) {
+    main {
+        width: calc(100% - 32px);
+        padding: 28px 22px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    form {
+        gap: 16px;
+    }
+
+    .input-box input {
+        padding: 11px;
+    }
+
+    button {
+        width: 100%;
+        padding: 13px;
+    }
+
+    .forgot {
+        font-size: .9rem;
+    }
+}
